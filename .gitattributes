@@ -1,2 +1,4 @@
 *.smk linguist-language=Python
 Snakefile linguist-language=Python
+.tests/** filter=lfs diff=lfs merge=lfs -text
+workflow/data/** filter=lfs diff=lfs merge=lfs -text
